@@ -1,354 +1,89 @@
-<!DOCTYPE html>
-<html lang="en-US">
-<head>
-    <title>
-        Module 3
-    </title>
-    <meta http-equiv="Content-Type" content="text/html; charset=" utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="css/style.css" />
 
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Module3 Solution</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Baloo+Bhai" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
 </head>
 <body>
     <header>
-        <nav id="header-nav" class="navbar navbar-default">
+        <nav class="navbar navbar-default">
             <div class="container-fluid">
                 <div class="navbar-header">
-                    <a class="navbar-brand" href="index.html"><b> Food, LLC </b></a>
-                </div>
-
-                <button type="button" class="navbar-toggle collapsed"
-                        data-toggle="collapse" data-target="#collapsable-nav"
-                        aria-expanded="false">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-
-            </div>
-
-            <div id="collapsable-nav" class="collapse navbar-collapse">
-                <ul id="nav-list" class="nav navbar-nav navbar-right">
-                    <li>
-                        <a href="index.html">
-                            <br class="hidden-xs"> Chicken
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <br class="hidden-xs"> Beef
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <br class="hidden-xs"> Sushi
-                        </a>
-                    </li>
-                    
-                </ul><!-- #nav-list -->
-            </div><!-- .collapse .navbar-collapse -->
+                    <div class="navbar-brand text-left">
+                        <h1> Food,LLC </h1>
+                    </div>
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="true">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>  <!-- #header-nav -->
+                <div id="collapsable-nav" class="collapse navbar-collapse">
+                    <ul id="nav-list" class="nav navbar-nav navbar-right">
+                        <li>
+                            <a href="#" class="visible-xs">
+                                <span class="text-center visible-xs"> Chicken</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="visible-xs">
+                                <span class="text-center visible-xs"> Beef </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="visible-xs">
+                                <span class="text-center visible-xs"> Sushi</span>
+                            </a>
+                        </li>
+                    </ul> <!-- #nav-list -->
+                </div> <!-- .collapse .navbar-collapse -->
             </div><!-- .container -->
-        </nav><!-- #header-nav -->
+        </nav>
         
     </header>
-    <h1 class="text-center">Our Menu</h1>
-   
-    <div class="row">
-        <div class="col-lg-4 col-md-6">
-            <div class="section">
-                <h2 class="chicken"> chicken </h2>
+
+    <div id="main-content" class="container">
+        <div>
+            <h2 class="text-center"> Our Menu </h2>
+        </div>
+
+        <div class="menu">
+            <h3 class="text-center"> Chicken</h3>
+            <div class="menu-desc">
                 <p>
-                    Ted Amachree is loving this course. Thanks Lorem Ipsum is simply dummy text of the printing and
-                    typesetting industry.Lorem ipsum dolor sit amet, consectetur adipiscing
-                     elit. Etiam lacinia molestie mollis. Sed maximus lacus quis porta 
-                    aliquam. Quisque tincidunt purus euismod nunc mattis, ut hendrerit leo 
-                    maximus. Aenean et elit sagittis, euismod erat ac, lobortis mi. 
-                    Maecenas id nulla vehicula, vehicula est a, aliquet libero. Aenean ac 
-                    euismod magna. Integer feugiat vel risus a ultrices. Fusce a 
-                    consectetur quam, at feugiat turpis. Nunc et dui maximus, tristique 
-                    turpis ac, vehicula nisl. Nullam tempor ultricies ligula, vitae 
-                    faucibus ex cursus vitae.Lorem ipsum dolor sit amet, consectetur adipiscing
-                     elit. Etiam lacinia molestie mollis. Sed maximus lacus quis porta
-                    aliquam. Quisque tincidunt purus euismod nunc mattis, ut hendrerit leo
-                    maximus. Aenean et elit sagittis, euismod erat ac, lobortis mi.
-                    Maecenas id nulla vehicula, vehicula est a, aliquet libero. Aenean ac
-                    euismod magna. Integer feugiat vel risus a ultrices. Fusce a
-                    consectetur quam, at feugiat turpis. Nunc et dui maximus, tristique
-                    turpis ac, vehicula nisl. Nullam tempor ultricies ligula, vitae
-                    faucibus ex cursus vitae.Lorem ipsum dolor sit amet, consectetur adipiscing
-                     elit. Etiam lacinia molestie mollis. Sed maximus lacus quis porta
-                    aliquam. Quisque tincidunt purus euismod nunc mattis, ut hendrerit leo
-                    maximus. Aenean et elit sagittis, euismod erat ac, lobortis mi.
-                    Maecenas id nulla vehicula, vehicula est a, aliquet libero. Aenean ac
-                    euismod magna. Integer feugiat vel risus a ultrices. Fusce a
-                    consectetur quam, at feugiat turpis. Nunc et dui maximus, tristique
-                    turpis ac, vehicula nisl. Nullam tempor ultricies ligula, vitae
-                    faucibus ex cursus vitae.Lorem ipsum dolor sit amet, consectetur adipiscing
-                     elit. Etiam lacinia molestie mollis. Sed maximus lacus quis porta
-                    aliquam. Quisque tincidunt purus euismod nunc mattis, ut hendrerit leo
-                    maximus. Aenean et elit sagittis, euismod erat ac, lobortis mi.
-                    Maecenas id nulla vehicula, vehicula est a, aliquet libero. Aenean ac
-                    euismod magna. Integer feugiat vel risus a ultrices. Fusce a
-                    consectetur quam, at feugiat turpis. Nunc et dui maximus, tristique
-                    turpis ac, vehicula nisl. Nullam tempor ultricies ligula, vitae
-                    faucibus ex cursus vitae.Lorem ipsum dolor sit amet, consectetur adipiscing
-                     elit. Etiam lacinia molestie mollis. Sed maximus lacus quis porta
-                    aliquam. Quisque tincidunt purus euismod nunc mattis, ut hendrerit leo
-                    maximus. Aenean et elit sagittis, euismod erat ac, lobortis mi.
-                    Maecenas id nulla vehicula, vehicula est a, aliquet libero. Aenean ac
-                    euismod magna. Integer feugiat vel risus a ultrices. Fusce a
-                    consectetur quam, at feugiat turpis. Nunc et dui maximus, tristique
-                    turpis ac, vehicula nisl. Nullam tempor ultricies ligula, vitae
-                    faucibus ex cursus vitae.Lorem ipsum dolor sit amet, consectetur adipiscing
-                     elit. Etiam lacinia molestie mollis. Sed maximus lacus quis porta
-                    aliquam. Quisque tincidunt purus euismod nunc mattis, ut hendrerit leo
-                    maximus. Aenean et elit sagittis, euismod erat ac, lobortis mi.
-                    Maecenas id nulla vehicula, vehicula est a, aliquet libero. Aenean ac
-                    euismod magna. Integer feugiat vel risus a ultrices. Fusce a
-                    consectetur quam, at feugiat turpis. Nunc et dui maximus, tristique
-                    turpis ac, vehicula nisl. Nullam tempor ultricies ligula, vitae
-                    faucibus ex cursus vitae.Lorem ipsum dolor sit amet, consectetur adipiscing
-                     elit. Etiam lacinia molestie mollis. Sed maximus lacus quis porta
-                    aliquam. Quisque tincidunt purus euismod nunc mattis, ut hendrerit leo
-                    maximus. Aenean et elit sagittis, euismod erat ac, lobortis mi.
-                    Maecenas id nulla vehicula, vehicula est a, aliquet libero. Aenean ac
-                    euismod magna. Integer feugiat vel risus a ultrices. Fusce a
-                    consectetur quam, at feugiat turpis. Nunc et dui maximus, tristique
-                    turpis ac, vehicula nisl. Nullam tempor ultricies ligula, vitae
-                    faucibus ex cursus vitae.Lorem ipsum dolor sit amet, consectetur adipiscing
-                     elit. Etiam lacinia molestie mollis. Sed maximus lacus quis porta
-                    aliquam. Quisque tincidunt purus euismod nunc mattis, ut hendrerit leo
-                    maximus. Aenean et elit sagittis, euismod erat ac, lobortis mi.
-                    Maecenas id nulla vehicula, vehicula est a, aliquet libero. Aenean ac
-                    euismod magna. Integer feugiat vel risus a ultrices. Fusce a
-                    consectetur quam, at feugiat turpis. Nunc et dui maximus, tristique
-                    turpis ac, vehicula nisl. Nullam tempor ultricies ligula, vitae
-                    faucibus ex cursus vitae.Lorem ipsum dolor sit amet, consectetur adipiscing
-                     elit. Etiam lacinia molestie mollis. Sed maximus lacus quis porta
-                    aliquam. Quisque tincidunt purus euismod nunc mattis, ut hendrerit leo
-                    maximus. Aenean et elit sagittis, euismod erat ac, lobortis mi.
-                    Maecenas id nulla vehicula, vehicula est a, aliquet libero. Aenean ac
-                    euismod magna. Integer feugiat vel risus a ultrices. Fusce a
-                    consectetur quam, at feugiat turpis. Nunc et dui maximus, tristique
-                    turpis ac, vehicula nisl. Nullam tempor ultricies ligula, vitae
-                    faucibus ex cursus vitae.aliquam. Quisque tincidunt purus euismod nunc mattis, ut hendrerit leo
-                    maximus. Aenean et elit sagittis, euismod erat ac, lobortis mi.
-                    Maecenas id nulla vehicula, vehicula est a, aliquet libero. Aenean ac
-                    euismod magna. Integer feugiat vel risus a ultrices. Fusce a
-                    consectetur quam, at feugiat turpis. Nunc et dui maximus, tristique
-                    turpis ac, vehicula nisl. Nullam tempor ultricies ligula, vitae
-                    faucibus ex cursus vitae.Lorem ipsum dolor sit amet, consectetur adipiscing
-                     elit. Etiam lacinia molestie mollis. Sed maximus lacus quis porta
-                    aliquam. Quisque tincidunt purus euismod nunc mattis, ut hendrerit leo
-                    maximus. Aenean et elit sagittis, euismod erat ac, lobortis mi.
-                    Maecenas id nulla vehicula, vehicula est a, aliquet libero. Aenean ac
-                    euismod magna. Integer feugiat vel risus a ultrices. Fusce a
-                    consectetur quam, at feugiat turpis. Nunc et dui maximus, tristique
-                    turpis ac, vehicula nisl. Nullam tempor ultricies ligula, vitae
-                    faucibus ex cursus vitae.
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ex mauris, posuere a fringilla a, blandit eleifend purus. Praesent eu elit ac tortor congue sollicitudin id vulputate augue. Etiam sed augue pharetra, sodales eros vitae, pellentesque tellus. Suspendisse hendrerit, leo vitae laoreet pharetra, tortor mauris finibus nisl, non accumsan ligula tortor eu dolor. Nulla facilisi. Duis sed lacinia elit. Suspendisse viverra purus velit, at interdum arcu malesuada at. Phasellus finibus elementum ante, sed lobortis enim placerat sed. Sed eros dui, varius id egestas eget, accumsan ut dolor. Aliquam laoreet, odio a porttitor pharetra, justo erat sollicitudin ante, vel volutpat justo augue eget ex. Suspendisse potenti. Praesent laoreet mollis turpis eget lobortis. Aenean vehicula semper dolor nec ornare. Quisque eget velit id nulla posuere varius dignissim eu nisl. Proin eget luctus lorem. Proin non diam vel nisl aliquam efficitur et sit amet libero. Sed iaculis urna id magna euismod, at fringilla purus auctor. Aliquam consectetur sem efficitur nisi viverra, ac interdum elit euismod. Pellentesque in vestibulum risus, nec congue justo. Aenean eu neque non leo facilisis sollicitudin id quis erat. Ut mi neque, fermentum ut posuere varius, vehicula sit amet tellus. Nam mi libero, posuere non sollicitudin eu, tristique sed diam. Fusce pulvinar est non tempor suscipit. Quisque ultricies, mauris sed rhoncus posuere, turpis lectus convallis lorem, vitae maximus augue elit eleifend libero. Sed porttitor, lorem quis accumsan convallis, sapien lacus pulvinar turpis, at sodales arcu nibh sed enim. Maecenas pulvinar convallis massa vitae mollis. Mauris rhoncus, nunc ut convallis convallis, neque augue mollis ante, in aliquam mi ipsum et nulla. Vivamus quis elementum mauris. Curabitur vitae facilisis velit. Nam tempus magna odio, eget feugiat sem ultricies eget. In feugiat ipsum quis libero pharetra tincidunt. Nam dictum sem in neque tristique aliquet. Ut aliquet metus eu purus dapibus accumsan. Vivamus dolor tortor, blandit in nisl nec, convallis vulputate libero. Aenean feugiat ex lorem, id imperdiet turpis rutrum a.Cras non nisl elit. Pellentesque ullamcorper imperdiet risus ut suscipit. Integer odio sapien, porttitor et tellus nec, placerat maximus erat. Sed euismod, leo eu dapibus consectetur, turpis odio placerat lorem, eget egestas mi felis sed nulla. Nullam feugiat lorem in eros tempus consectetur. Etiam nec odio augue. Quisque vitae nisl sit amet lorem bibendum rhoncus. Phasellus varius varius nibh, nec rhoncus nibh facilisis id. Nunc pulvinar suscipit augue, ut euismod sapien pretium fringilla. Nam quis mauris id velit tristique laoreet. Ut vitae lorem et mauris molestie varius. Vestibulum aliquet turpis nec sapien egestas cursus. Etiam gravida velit vel ultricies ultricies. Vivamus semper massa quis libero porta, nec porta turpis interdum. Fusce at eros molestie, faucibus urna a, congue erat. Aliquam dapibus eros eu blandit efficitur.
                 </p>
             </div>
         </div>
-        <div class="col-lg-4 col-md-6">
-            <div class="section">
-                <h2 class="beef"> Beef </h2>
+        <div class="menu">
+            <h3 class="text-center"> Beef</h3>
+            <div class="menu-desc">
                 <p>
-                    Ted Amachree is loving this course. Thanks Lorem Ipsum is simply dummy text of the printing and
-                    typesetting industry.Lorem ipsum dolor sit amet, consectetur adipiscing
-                     elit. Etiam lacinia molestie mollis. Sed maximus lacus quis porta
-                    aliquam. Quisque tincidunt purus euismod nunc mattis, ut hendrerit leo
-                    maximus. Aenean et elit sagittis, euismod erat ac, lobortis mi.
-                    Maecenas id nulla vehicula, vehicula est a, aliquet libero. Aenean ac
-                    euismod magna. Integer feugiat vel risus a ultrices. Fusce a
-                    consectetur quam, at feugiat turpis. Nunc et dui maximus, tristique
-                    turpis ac, vehicula nisl. Nullam tempor ultricies ligula, vitae
-                    faucibus ex cursus vitaeLorem ipsum dolor sit amet, consectetur adipiscing
-                     elit. Etiam lacinia molestie mollis. Sed maximus lacus quis porta
-                    aliquam. Quisque tincidunt purus euismod nunc mattis, ut hendrerit leo
-                    maximus. Aenean et elit sagittis, euismod erat ac, lobortis mi.
-                    Maecenas id nulla vehicula, vehicula est a, aliquet libero. Aenean ac
-                    euismod magna. Integer feugiat vel risus a ultrices. Fusce a
-                    consectetur quam, at feugiat turpis. Nunc et dui maximus, tristique
-                    turpis ac, vehicula nisl. Nullam tempor ultricies ligula, vitae
-                    faucibus ex cursus vitae.Lorem ipsum dolor sit amet, consectetur adipiscing
-                     elit. Etiam lacinia molestie mollis. Sed maximus lacus quis porta
-                    aliquam. Quisque tincidunt purus euismod nunc mattis, ut hendrerit leo
-                    maximus. Aenean et elit sagittis, euismod erat ac, lobortis mi.
-                    Maecenas id nulla vehicula, vehicula est a, aliquet libero. Aenean ac
-                    euismod magna. Integer feugiat vel risus a ultrices. Fusce a
-                    consectetur quam, at feugiat turpis. Nunc et dui maximus, tristique
-                    turpis ac, vehicula nisl. Nullam tempor ultricies ligula, vitae
-                    faucibus ex cursus vitae.Lorem ipsum dolor sit amet, consectetur adipiscing
-                     elit. Etiam lacinia molestie mollis. Sed maximus lacus quis porta
-                    aliquam. Quisque tincidunt purus euismod nunc mattis, ut hendrerit leo
-                    maximus. Aenean et elit sagittis, euismod erat ac, lobortis mi.
-                    Maecenas id nulla vehicula, vehicula est a, aliquet libero. Aenean ac
-                    euismod magna. Integer feugiat vel risus a ultrices. Fusce a
-                    consectetur quam, at feugiat turpis. Nunc et dui maximus, tristique
-                    turpis ac, vehicula nisl. Nullam tempor ultricies ligula, vitae
-                    faucibus ex cursus vitae.Lorem ipsum dolor sit amet, consectetur adipiscing
-                     elit. Etiam lacinia molestie mollis. Sed maximus lacus quis porta
-                    aliquam. Quisque tincidunt purus euismod nunc mattis, ut hendrerit leo
-                    maximus. Aenean et elit sagittis, euismod erat ac, lobortis mi.
-                    Maecenas id nulla vehicula, vehicula est a, aliquet libero. Aenean ac
-                    euismod magna. Integer feugiat vel risus a ultrices. Fusce a
-                    consectetur quam, at feugiat turpis. Nunc et dui maximus, tristique
-                    turpis ac, vehicula nisl. Nullam tempor ultricies ligula, vitae
-                    faucibus ex cursus vitae.Lorem ipsum dolor sit amet, consectetur adipiscing
-                     elit. Etiam lacinia molestie mollis. Sed maximus lacus quis porta
-                    aliquam. Quisque tincidunt purus euismod nunc mattis, ut hendrerit leo
-                    maximus. Aenean et elit sagittis, euismod erat ac, lobortis mi.
-                    Maecenas id nulla vehicula, vehicula est a, aliquet libero. Aenean ac
-                    euismod magna. Integer feugiat vel risus a ultrices. Fusce a
-                    consectetur quam, at feugiat turpis. Nunc et dui maximus, tristique
-                    turpis ac, vehicula nisl. Nullam tempor ultricies ligula, vitae
-                    faucibus ex cursus vitae.Lorem ipsum dolor sit amet, consectetur adipiscing
-                     elit. Etiam lacinia molestie mollis. Sed maximus lacus quis porta
-                    aliquam. Quisque tincidunt purus euismod nunc mattis, ut hendrerit leo
-                    maximus. Aenean et elit sagittis, euismod erat ac, lobortis mi.
-                    Maecenas id nulla vehicula, vehicula est a, aliquet libero. Aenean ac
-                    euismod magna. Integer feugiat vel risus a ultrices. Fusce a
-                    consectetur quam, at feugiat turpis. Nunc et dui maximus, tristique
-                    turpis ac, vehicula nisl. Nullam tempor ultricies ligula, vitae
-                    faucibus ex cursus vitae.Lorem ipsum dolor sit amet, consectetur adipiscing
-                     elit. Etiam lacinia molestie mollis. Sed maximus lacus quis porta
-                    aliquam. Quisque tincidunt purus euismod nunc mattis, ut hendrerit leo
-                    maximus. Aenean et elit sagittis, euismod erat ac, lobortis mi.
-                    Maecenas id nulla vehicula, vehicula est a, aliquet libero. Aenean ac
-                    euismod magna. Integer feugiat vel risus a ultrices. Fusce a
-                    consectetur quam, at feugiat turpis. Nunc et dui maximus, tristique
-                    turpis ac, vehicula nisl. Nullam tempor ultricies ligula, vitae
-                    faucibus ex cursus vitae.Lorem ipsum dolor sit amet, consectetur adipiscing
-                     elit. Etiam lacinia molestie mollis. Sed maximus lacus quis porta
-                    aliquam. Quisque tincidunt purus euismod nunc mattis, ut hendrerit leo
-                    maximus. Aenean et elit sagittis, euismod erat ac, lobortis mi.
-                    Maecenas id nulla vehicula, vehicula est a, aliquet libero. Aenean ac
-                    euismod magna. Integer feugiat vel risus a ultrices. Fusce a
-                    consectetur quam, at feugiat turpis. Nunc et dui maximus, tristique
-                    turpis ac, vehicula nisl. Nullam tempor ultricies ligula, vitae
-                    faucibus ex cursus vitae.aliquam. Quisque tincidunt purus euismod nunc mattis, ut hendrerit leo
-                    maximus. Aenean et elit sagittis, euismod erat ac, lobortis mi.
-                    Maecenas id nulla vehicula, vehicula est a, aliquet libero. Aenean ac
-                    euismod magna. Integer feugiat vel risus a ultrices. Fusce a
-                    consectetur quam, at feugiat turpis. Nunc et dui maximus, tristique
-                    turpis ac, vehicula nisl. Nullam tempor ultricies ligula, vitae
-                    faucibus ex cursus vitae.Lorem ipsum dolor sit amet, consectetur adipiscing
-                     elit. Etiam lacinia molestie mollis. Sed maximus lacus quis porta
-                    aliquam. Quisque tincidunt purus euismod nunc mattis, ut hendrerit leo
-                    maximus. Aenean et elit sagittis, euismod erat ac, lobortis mi.
-                    Maecenas id nulla vehicula, vehicula est a, aliquet libero. Aenean ac
-                    euismod magna. Integer feugiat vel risus a ultrices. Fusce a
-                    consectetur quam, at feugiat turpis. Nunc et dui maximus, tristique
-                    turpis ac, vehicula nisl. Nullam tempor ultricies ligula, vitae
-                    faucibus ex cursus vitae.
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ex mauris, posuere a fringilla a, blandit eleifend purus. Praesent eu elit ac tortor congue sollicitudin id vulputate augue. Etiam sed augue pharetra, sodales eros vitae, pellentesque tellus. Suspendisse hendrerit, leo vitae laoreet pharetra, tortor mauris finibus nisl, non accumsan ligula tortor eu dolor. Nulla facilisi. Duis sed lacinia elit. Suspendisse viverra purus velit, at interdum arcu malesuada at. Phasellus finibus elementum ante, sed lobortis enim placerat sed. Sed eros dui, varius id egestas eget, accumsan ut dolor. Aliquam laoreet, odio a porttitor pharetra, justo erat sollicitudin ante, vel volutpat justo augue eget ex. Suspendisse potenti. Praesent laoreet mollis turpis eget lobortis. Aenean vehicula semper dolor nec ornare. Quisque eget velit id nulla posuere varius dignissim eu nisl. Proin eget luctus lorem. Proin non diam vel nisl aliquam efficitur et sit amet libero. Sed iaculis urna id magna euismod, at fringilla purus auctor. Aliquam consectetur sem efficitur nisi viverra, ac interdum elit euismod. Pellentesque in vestibulum risus, nec congue justo. Aenean eu neque non leo facilisis sollicitudin id quis erat. Ut mi neque, fermentum ut posuere varius, vehicula sit amet tellus. Nam mi libero, posuere non sollicitudin eu, tristique sed diam. Fusce pulvinar est non tempor suscipit. Quisque ultricies, mauris sed rhoncus posuere, turpis lectus convallis lorem, vitae maximus augue elit eleifend libero. Sed porttitor, lorem quis accumsan convallis, sapien lacus pulvinar turpis, at sodales arcu nibh sed enim. Maecenas pulvinar convallis massa vitae mollis. Mauris rhoncus, nunc ut convallis convallis, neque augue mollis ante, in aliquam mi ipsum et nulla. Vivamus quis elementum mauris. Curabitur vitae facilisis velit. Nam tempus magna odio, eget feugiat sem ultricies eget. In feugiat ipsum quis libero pharetra tincidunt. Nam dictum sem in neque tristique aliquet. Ut aliquet metus eu purus dapibus accumsan. Vivamus dolor tortor, blandit in nisl nec, convallis vulputate libero. Aenean feugiat ex lorem, id imperdiet turpis rutrum a.Cras non nisl elit. Pellentesque ullamcorper imperdiet risus ut suscipit. Integer odio sapien, porttitor et tellus nec, placerat maximus erat. Sed euismod, leo eu dapibus consectetur, turpis odio placerat lorem, eget egestas mi felis sed nulla. Nullam feugiat lorem in eros tempus consectetur. Etiam nec odio augue. Quisque vitae nisl sit amet lorem bibendum rhoncus. Phasellus varius varius nibh, nec rhoncus nibh facilisis id. Nunc pulvinar suscipit augue, ut euismod sapien pretium fringilla. Nam quis mauris id velit tristique laoreet. Ut vitae lorem et mauris molestie varius. Vestibulum aliquet turpis nec sapien egestas cursus. Etiam gravida velit vel ultricies ultricies. Vivamus semper massa quis libero porta, nec porta turpis interdum. Fusce at eros molestie, faucibus urna a, congue erat. Aliquam dapibus eros eu blandit efficitur.
                 </p>
             </div>
         </div>
-        <div class="col-lg-4 col-md-12">
-            <div class="section">
-                <h2 class="sushi">  Sushi </h2>
+        <div class="menu">
+            <h3 class="text-center"> Sushi</h3>
+            <div class="menu-desc">
                 <p>
-                    Ted Amachree is loving this course. Thanks Lorem Ipsum is simply dummy text of the printing and
-                    typesetting industry.Lorem ipsum dolor sit amet, consectetur adipiscing
-                     elit. Etiam lacinia molestie mollis. Sed maximus lacus quis porta
-                    aliquam. Quisque tincidunt purus euismod nunc mattis, ut hendrerit leo
-                    maximus. Aenean et elit sagittis, euismod erat ac, lobortis mi.
-                    Maecenas id nulla vehicula, vehicula est a, aliquet libero. Aenean ac
-                    euismod magna. Integer feugiat vel risus a ultrices. Fusce a
-                    consectetur quam, at feugiat turpis. Nunc et dui maximus, tristique
-                    turpis ac, vehicula nisl. Nullam tempor ultricies ligula, vitae
-                    faucibus ex cursus vitae.Lorem ipsum dolor sit amet, consectetur adipiscing
-                     elit. Etiam lacinia molestie mollis. Sed maximus lacus quis porta
-                    aliquam. Quisque tincidunt purus euismod nunc mattis, ut hendrerit leo
-                    maximus. Aenean et elit sagittis, euismod erat ac, lobortis mi.
-                    Maecenas id nulla vehicula, vehicula est a, aliquet libero. Aenean ac
-                    euismod magna. Integer feugiat vel risus a ultrices. Fusce a
-                    consectetur quam, at feugiat turpis. Nunc et dui maximus, tristique
-                    turpis ac, vehicula nisl. Nullam tempor ultricies ligula, vitae
-                    faucibus ex cursus vitae.Lorem ipsum dolor sit amet, consectetur adipiscing
-                     elit. Etiam lacinia molestie mollis. Sed maximus lacus quis porta
-                    aliquam. Quisque tincidunt purus euismod nunc mattis, ut hendrerit leo
-                    maximus. Aenean et elit sagittis, euismod erat ac, lobortis mi.
-                    Maecenas id nulla vehicula, vehicula est a, aliquet libero. Aenean ac
-                    euismod magna. Integer feugiat vel risus a ultrices. Fusce a
-                    consectetur quam, at feugiat turpis. Nunc et dui maximus, tristique
-                    turpis ac, vehicula nisl. Nullam tempor ultricies ligula, vitae
-                    faucibus ex cursus vitae.Lorem ipsum dolor sit amet, consectetur adipiscing
-                     elit. Etiam lacinia molestie mollis. Sed maximus lacus quis porta
-                    aliquam. Quisque tincidunt purus euismod nunc mattis, ut hendrerit leo
-                    maximus. Aenean et elit sagittis, euismod erat ac, lobortis mi.
-                    Maecenas id nulla vehicula, vehicula est a, aliquet libero. Aenean ac
-                    euismod magna. Integer feugiat vel risus a ultrices. Fusce a
-                    consectetur quam, at feugiat turpis. Nunc et dui maximus, tristique
-                    turpis ac, vehicula nisl. Nullam tempor ultricies ligula, vitae
-                    faucibus ex cursus vitae.Lorem ipsum dolor sit amet, consectetur adipiscing
-                     elit. Etiam lacinia molestie mollis. Sed maximus lacus quis porta
-                    aliquam. Quisque tincidunt purus euismod nunc mattis, ut hendrerit leo
-                    maximus. Aenean et elit sagittis, euismod erat ac, lobortis mi.
-                    Maecenas id nulla vehicula, vehicula est a, aliquet libero. Aenean ac
-                    euismod magna. Integer feugiat vel risus a ultrices. Fusce a
-                    consectetur quam, at feugiat turpis. Nunc et dui maximus, tristique
-                    turpis ac, vehicula nisl. Nullam tempor ultricies ligula, vitae
-                    faucibus ex cursus vitae.Lorem ipsum dolor sit amet, consectetur adipiscing
-                     elit. Etiam lacinia molestie mollis. Sed maximus lacus quis porta
-                    aliquam. Quisque tincidunt purus euismod nunc mattis, ut hendrerit leo
-                    maximus. Aenean et elit sagittis, euismod erat ac, lobortis mi.
-                    Maecenas id nulla vehicula, vehicula est a, aliquet libero. Aenean ac
-                    euismod magna. Integer feugiat vel risus a ultrices. Fusce a
-                    consectetur quam, at feugiat turpis. Nunc et dui maximus, tristique
-                    turpis ac, vehicula nisl. Nullam tempor ultricies ligula, vitae
-                    faucibus ex cursus vitae.Lorem ipsum dolor sit amet, consectetur adipiscing
-                     elit. Etiam lacinia molestie mollis. Sed maximus lacus quis porta
-                    aliquam. Quisque tincidunt purus euismod nunc mattis, ut hendrerit leo
-                    maximus. Aenean et elit sagittis, euismod erat ac, lobortis mi.
-                    Maecenas id nulla vehicula, vehicula est a, aliquet libero. Aenean ac
-                    euismod magna. Integer feugiat vel risus a ultrices. Fusce a
-                    consectetur quam, at feugiat turpis. Nunc et dui maximus, tristique
-                    turpis ac, vehicula nisl. Nullam tempor ultricies ligula, vitae
-                    faucibus ex cursus vitae.Lorem ipsum dolor sit amet, consectetur adipiscing
-                     elit. Etiam lacinia molestie mollis. Sed maximus lacus quis porta
-                    aliquam. Quisque tincidunt purus euismod nunc mattis, ut hendrerit leo
-                    maximus. Aenean et elit sagittis, euismod erat ac, lobortis mi.
-                    Maecenas id nulla vehicula, vehicula est a, aliquet libero. Aenean ac
-                    euismod magna. Integer feugiat vel risus a ultrices. Fusce a
-                    consectetur quam, at feugiat turpis. Nunc et dui maximus, tristique
-                    turpis ac, vehicula nisl. Nullam tempor ultricies ligula, vitae
-                    faucibus ex cursus vitae.Lorem ipsum dolor sit amet, consectetur adipiscing
-                     elit. Etiam lacinia molestie mollis. Sed maximus lacus quis porta
-                    aliquam. Quisque tincidunt purus euismod nunc mattis, ut hendrerit leo
-                    maximus. Aenean et elit sagittis, euismod erat ac, lobortis mi.
-                    Maecenas id nulla vehicula, vehicula est a, aliquet libero. Aenean ac
-                    euismod magna. Integer feugiat vel risus a ultrices. Fusce a
-                    consectetur quam, at feugiat turpis. Nunc et dui maximus, tristique
-                    turpis ac, vehicula nisl. Nullam tempor ultricies ligula, vitae
-                    faucibus ex cursus vitae.aliquam. Quisque tincidunt purus euismod nunc mattis, ut hendrerit leo
-                    maximus. Aenean et elit sagittis, euismod erat ac, lobortis mi.
-                    Maecenas id nulla vehicula, vehicula est a, aliquet libero. Aenean ac
-                    euismod magna. Integer feugiat vel risus a ultrices. Fusce a
-                    consectetur quam, at feugiat turpis. Nunc et dui maximus, tristique
-                    turpis ac, vehicula nisl. Nullam tempor ultricies ligula, vitae
-                    faucibus ex cursus vitae.Lorem ipsum dolor sit amet, consectetur adipiscing
-                     elit. Etiam lacinia molestie mollis. Sed maximus lacus quis porta
-                    aliquam. Quisque tincidunt purus euismod nunc mattis, ut hendrerit leo
-                    maximus. Aenean et elit sagittis, euismod erat ac, lobortis mi.
-                    Maecenas id nulla vehicula, vehicula est a, aliquet libero. Aenean ac
-                    euismod magna. Integer feugiat vel risus a ultrices. Fusce a
-                    consectetur quam, at feugiat turpis. Nunc et dui maximus, tristique
-                    turpis ac, vehicula nisl. Nullam tempor ultricies ligula, vitae
-                    faucibus ex cursus vitae.
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ex mauris, posuere a fringilla a, blandit eleifend purus. Praesent eu elit ac tortor congue sollicitudin id vulputate augue. Etiam sed augue pharetra, sodales eros vitae, pellentesque tellus. Suspendisse hendrerit, leo vitae laoreet pharetra, tortor mauris finibus nisl, non accumsan ligula tortor eu dolor. Nulla facilisi. Duis sed lacinia elit. Suspendisse viverra purus velit, at interdum arcu malesuada at. Phasellus finibus elementum ante, sed lobortis enim placerat sed. Sed eros dui, varius id egestas eget, accumsan ut dolor. Aliquam laoreet, odio a porttitor pharetra, justo erat sollicitudin ante, vel volutpat justo augue eget ex. Suspendisse potenti. Praesent laoreet mollis turpis eget lobortis. Aenean vehicula semper dolor nec ornare. Quisque eget velit id nulla posuere varius dignissim eu nisl. Proin eget luctus lorem. Proin non diam vel nisl aliquam efficitur et sit amet libero. Sed iaculis urna id magna euismod, at fringilla purus auctor. Aliquam consectetur sem efficitur nisi viverra, ac interdum elit euismod. Pellentesque in vestibulum risus, nec congue justo. Aenean eu neque non leo facilisis sollicitudin id quis erat. Ut mi neque, fermentum ut posuere varius, vehicula sit amet tellus. Nam mi libero, posuere non sollicitudin eu, tristique sed diam. Fusce pulvinar est non tempor suscipit. Quisque ultricies, mauris sed rhoncus posuere, turpis lectus convallis lorem, vitae maximus augue elit eleifend libero. Sed porttitor, lorem quis accumsan convallis, sapien lacus pulvinar turpis, at sodales arcu nibh sed enim. Maecenas pulvinar convallis massa vitae mollis. Mauris rhoncus, nunc ut convallis convallis, neque augue mollis ante, in aliquam mi ipsum et nulla. Vivamus quis elementum mauris. Curabitur vitae facilisis velit. Nam tempus magna odio, eget feugiat sem ultricies eget. In feugiat ipsum quis libero pharetra tincidunt. Nam dictum sem in neque tristique aliquet. Ut aliquet metus eu purus dapibus accumsan. Vivamus dolor tortor, blandit in nisl nec, convallis vulputate libero. Aenean feugiat ex lorem, id imperdiet turpis rutrum a.Cras non nisl elit. Pellentesque ullamcorper imperdiet risus ut suscipit. Integer odio sapien, porttitor et tellus nec, placerat maximus erat. Sed euismod, leo eu dapibus consectetur, turpis odio placerat lorem, eget egestas mi felis sed nulla. Nullam feugiat lorem in eros tempus consectetur. Etiam nec odio augue. Quisque vitae nisl sit amet lorem bibendum rhoncus. Phasellus varius varius nibh, nec rhoncus nibh facilisis id. Nunc pulvinar suscipit augue, ut euismod sapien pretium fringilla. Nam quis mauris id velit tristique laoreet. Ut vitae lorem et mauris molestie varius. Vestibulum aliquet turpis nec sapien egestas cursus. Etiam gravida velit vel ultricies ultricies. Vivamus semper massa quis libero porta, nec porta turpis interdum. Fusce at eros molestie, faucibus urna a, congue erat. Aliquam dapibus eros eu blandit efficitur.
                 </p>
             </div>
         </div>
-       
-    </div>
 
-
-
+    </div> <!-- container end -->
+    <!-- jQuery (Bootstrap JS plugins depend on it) -->
     <script src="js/jquery-2.1.4.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/script.js"></script>
-
-    
 </body>
 </html>
